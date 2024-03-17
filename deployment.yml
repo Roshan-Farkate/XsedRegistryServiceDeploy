@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: roshantcog/xseedserviceregistry:latest
+          image: roshantcog/xseedserviceregistrydeploy:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8761
